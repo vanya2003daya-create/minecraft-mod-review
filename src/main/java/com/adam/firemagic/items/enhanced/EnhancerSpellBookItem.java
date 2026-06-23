@@ -73,7 +73,7 @@ public class EnhancerSpellBookItem extends Item {
                 FireMagicMod.LOGGER.error("Ошибка при выдаче рецептов: " + e.getMessage());
 
                 // Запасной способ
-                serverPlayer.sendMessage(Text.literal("§eРецепты изучены автоматически!"), true);
+                serverPlayer.sendMessage(Text.literal("§eРецепты изучены автоматически"), true);
             }
 
             // === ВЫДАЧА ИНФОРМАЦИОННОЙ КНИГИ ===
