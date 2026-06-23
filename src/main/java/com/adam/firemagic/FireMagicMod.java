@@ -102,7 +102,7 @@ public class FireMagicMod implements ModInitializer {
         // Обработчик смерти
         ServerPlayerEvents.AFTER_RESPAWN.register(new PlayerDeathHandler());
 
-        LOGGER.info("Fire Magic Mod initialized with all schools including Enhancer!");
+        LOGGER.info("Fire Magic Mod initialized with all schools including Enhancer");
     }
 
     private void registerItems() {
