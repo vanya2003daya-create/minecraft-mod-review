@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BDB",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "D": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "firemagic:hunter_helm"
+  }
+}

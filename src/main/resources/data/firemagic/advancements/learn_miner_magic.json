@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "firemagic:miner_spell_book"
+    },
+    "title": {
+      "translate": "advancement.firemagic.learn_miner_magic"
+    },
+    "description": {
+      "translate": "advancement.firemagic.learn_miner_magic.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "learned_magic": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["learned_magic"]
+  ],
+  "rewards": {
+    "experience": 50,
+    "function": "firemagic:grant_miner_recipes"
+  }
+}

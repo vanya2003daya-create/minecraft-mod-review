@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "firemagic:necromancer_spell_book"
+    },
+    "title": {
+      "text": "Темное искусство",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Изучите школу некромантии",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "learned": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "firemagic:zombie_minion_egg",
+      "firemagic:skeleton_minion_egg"
+    ]
+  }
+}

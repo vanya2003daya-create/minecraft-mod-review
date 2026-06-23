@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ODO",
+    " O "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "firemagic:stone_dash",
+    "count": 1
+  },
+  "unlocked_by": [
+    {
+      "advancement": "firemagic:learn_miner_magic"
+    }
+  ]
+}

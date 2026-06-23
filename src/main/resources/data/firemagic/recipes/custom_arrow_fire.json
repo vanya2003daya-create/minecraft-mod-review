@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "SAS",
+    "TGT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "minecraft:arrow"
+    },
+    "A": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "firemagic:explosive_arrow",
+    "count": 1
+  },
+  "group": "firemagic_arrows"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "firemagicmod",
+  "version": "${version}",
+  "name": "Fire Magic Mod",
+  "description": "Adds mana system and fireball staff",
+  "authors": ["AdamRaper"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.adam.firemagic.FireMagicMod"],
+    "client": ["com.adam.firemagic.FireMagicModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "firemagicmod.mixins.json"
+  ]
+}

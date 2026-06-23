@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:bone" },
+    { "item": "minecraft:arrow" },
+    { "item": "minecraft:egg" }
+  ],
+  "result": {
+    "item": "firemagic:skeleton_minion_egg",
+    "count": 1
+  }
+}

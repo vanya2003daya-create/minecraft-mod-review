@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "firemagic:archer_spell_book"
+    },
+    "title": {
+      "translate": "advancement.firemagic.learn_archer_magic"
+    },
+    "description": {
+      "translate": "advancement.firemagic.learn_archer_magic.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "learned": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["learned"]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:rotten_flesh" },
+    { "item": "minecraft:bone" },
+    { "item": "minecraft:egg" }
+  ],
+  "result": {
+    "item": "firemagic:zombie_minion_egg",
+    "count": 1
+  }
+}

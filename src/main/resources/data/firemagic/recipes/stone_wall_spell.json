@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SBS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "firemagic:stone_wall",
+    "count": 1
+  },
+  "unlocked_by": [
+    {
+      "advancement": "firemagic:learn_miner_magic"
+    }
+  ]
+}

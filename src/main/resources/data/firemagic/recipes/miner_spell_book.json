@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "GBG",
+    " B "
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "B": { "item": "minecraft:book" }
+  },
+  "result": {
+    "item": "firemagic:miner_spell_book",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.adam.firemagic.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PersistentProjectileEntityMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

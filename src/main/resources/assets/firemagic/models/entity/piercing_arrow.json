@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:template/entity/projectile",
+  "textures": {
+    "particle": "firemagic:entity/piercing_arrow",
+    "texture": "firemagic:entity/piercing_arrow"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 1.75, 0],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "elements": [
+    {
+      "name": "arrow",
+      "from": [7.5, 7.5, -8],
+      "to": [8.5, 8.5, 8],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0]},
+      "faces": {
+        "north": {"uv": [0, 0, 1, 1], "texture": "#texture"},
+        "east": {"uv": [0, 0, 16, 1], "texture": "#texture"},
+        "south": {"uv": [0, 0, 1, 1], "texture": "#texture"},
+        "west": {"uv": [0, 0, 16, 1], "texture": "#texture"},
+        "up": {"uv": [0, 0, 16, 1], "texture": "#texture"},
+        "down": {"uv": [0, 0, 16, 1], "texture": "#texture"}
+      }
+    }
+  ]
+}

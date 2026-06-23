@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "firemagic:enhancer_spell_book"
+    },
+    "title": {
+      "text": "Мастер улучшений"
+    },
+    "description": {
+      "text": "Освойте искусство улучшения снаряжения"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/smithing_table_top.png"
+  },
+  "criteria": {
+    "learned": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["learned"]
+  ]
+}

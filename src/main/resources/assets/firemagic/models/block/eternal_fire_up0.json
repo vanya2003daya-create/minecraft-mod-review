@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fire_up",
+  "textures": {
+    "fire": "firemagic:block/eternal_fire_0"
+  },
+  "render_type": "cutout"
+}
