@@ -75,7 +75,7 @@ public class ModEntities {
     );
 
     public static void init() {
-        FireMagicMod.LOGGER.info("Custom fireball entity registered!");
+        FireMagicMod.LOGGER.info("Custom fireball entity registered!)");
         FireMagicMod.LOGGER.info("Piercing arrow entity registered!");
         FireMagicMod.LOGGER.info("Teleport arrow entity registered!");
         FireMagicMod.LOGGER.info("Necro zombie entity registered!"); // 🔧 ДОБАВЛЕНО
