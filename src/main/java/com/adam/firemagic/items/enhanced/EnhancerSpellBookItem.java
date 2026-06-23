@@ -88,7 +88,7 @@ public class EnhancerSpellBookItem extends Item {
                 serverPlayer.dropItem(infoBook, false);
             }
 
-            serverPlayer.sendMessage(Text.literal("§aПолучена §6Книга рецептов улучшения§a!"), true);
+            serverPlayer.sendMessage(Text.literal("§aПолучена §6Книга рецептов улучшения§a"), true);
 
             // УДАЛЕНИЕ КНИГИ СПЕЦИАЛИЗАЦИИ
             serverPlayer.setStackInHand(hand, ItemStack.EMPTY);
